@@ -8,9 +8,11 @@ Um assistente virtual Android inteligente, rápido e com síntese de voz nativa.
 * 🗣️ **Voz Integrada (TTS):** As mensagens da IA são lidas em voz alta utilizando um modelo de áudio personalizado, com gerenciamento inteligente de foco de áudio no Android.
 * ⚙️ **Processamento em Segundo Plano:** O aplicativo continua gerando a resposta e baixando o áudio mesmo quando minimizado. Uma **notificação silenciosa** avisa quando a assistente está pronta para falar.
 * 🎨 **UI/UX Premium:** * Construído 100% em **Jetpack Compose**.
+  
     * Suporte dinâmico a **Dark Mode** e **Light Mode**.
     * Bolhas de chat com gradientes modernos.
     * Animação suave de "digitando" (typing indicator).
+      
 * 🖼️ **Avatar Personalizável:** Permite escolher uma foto de perfil diretamente da galeria do dispositivo, com persistência de dados local (`SharedPreferences`).
 * 🥚 **Easter Egg:** Uma pequena surpresa escondida para os usuários curiosos!
 
@@ -35,12 +37,12 @@ Para rodar este projeto na sua máquina, você precisará configurar as suas pr�
 
 
 
-Abra o projeto no Android Studio.
+2. Abra o projeto no Android Studio.
 
-Acesse o arquivo MainActivity.kt.
+3. Acesse o arquivo MainActivity.kt.
 
-Procure pelas funções fetchGroqResponse e fetchVoiceUrl.
+4. Procure pelas funções fetchGroqResponse e fetchVoiceUrl.
 
-Substitua o texto "DIGITE_AQUI_SUA_CHAVE_API_... pelas suas credenciais reais do Groq e do Hugging Face.
+5. Substitua o texto "DIGITE_AQUI_SUA_CHAVE_API_... pelas suas credenciais reais do Groq e do Hugging Face.
 
-Faça o Build e rode no seu emulador ou dispositivo físico (Android 8.0 Oreo ou superior recomendado).
+6. Faça o Build e rode no seu emulador ou dispositivo físico (Android 8.0 Oreo ou superior recomendado).
