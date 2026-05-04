@@ -1,20 +1,19 @@
 🦊 Tomobox Alpha
 
-Um assistente virtual Android inteligente, rápido e com síntese de voz nativa. O Tomobox une o poder de processamento de texto do **Llama 3** (via Groq API) com um motor de Text-to-Speech (TTS) hospedado no Hugging Face, oferecendo uma experiência de chat fluida, interativa e totalmente em português.
+Um assistente virtual Android inteligente, e com síntese de voz nativa. O Tomobox une o poder de processamento de texto do **Llama 3** (via Groq API) com um motor de Text-to-Speech (TTS) e um RVC personalizado hospedado no Hugging Face, oferecendo uma experiência de chat, interativa e totalmente em português.
 
 ✨ Funcionalidades Principais
 
-* 🧠 **Respostas Instantâneas:** Integração com a API do Groq para geração de texto em altíssima velocidade.
 * 🗣️ **Voz Integrada (TTS):** As mensagens da IA são lidas em voz alta utilizando um modelo de áudio personalizado, com gerenciamento inteligente de foco de áudio no Android.
 * ⚙️ **Processamento em Segundo Plano:** O aplicativo continua gerando a resposta e baixando o áudio mesmo quando minimizado. Uma **notificação silenciosa** avisa quando a assistente está pronta para falar.
 * 🎨 **UI/UX Premium:** * Construído 100% em **Jetpack Compose**.
   
     * Suporte dinâmico a **Dark Mode** e **Light Mode**.
-    * Bolhas de chat com gradientes modernos.
+    * Bolhas de chat com gradientes.
     * Animação suave de "digitando" (typing indicator).
       
 * 🖼️ **Avatar Personalizável:** Permite escolher uma foto de perfil diretamente da galeria do dispositivo, com persistência de dados local (`SharedPreferences`).
-* 🥚 **Easter Egg:** Uma pequena surpresa escondida para os usuários curiosos!
+
 
 ## 🛠️ Tecnologias Utilizadas
 
